@@ -15,5 +15,12 @@
   },
   "engines": {
     "node": ">=8"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "mongodb": "^3.3.2"
   }
 }
