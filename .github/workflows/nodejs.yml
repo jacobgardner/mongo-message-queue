@@ -14,7 +14,8 @@ jobs:
     services:
       mongodb:
         image: mongodb
-        ports: 27017:27017/tcp
+        ports: 
+          - 27017:27017/tcp
 
     steps:
     - uses: actions/checkout@v1
