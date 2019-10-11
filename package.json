@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
     "mongodb": "^3.3.2"
   }
 }
